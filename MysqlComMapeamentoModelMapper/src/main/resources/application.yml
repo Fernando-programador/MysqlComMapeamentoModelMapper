@@ -1,12 +1,12 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mysql_spring_boo_3 #?useTime=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/versionamento_book #?useTime=true&serverTimezone=UTC
     username: root
     password:   
   jpa:
    hibernate:
-     ddl-auto: update
+     ddl-auto: none
    properties:
      hibernate:
        dialect: org.hibernate.dialect.MySQL8Dialect
